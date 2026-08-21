@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARVIS Interface Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">JARVIS</h1>
+                <p class="subtitle">Interface Hub</p>
+            </div>
+            <div class="status-indicator">
+                <span class="pulse"></span>
+                <span class="status-text">ONLINE</span>
+            </div>
+        </header>
+
+        <!-- Main Interface -->
+        <main class="main-interface">
+            <!-- Central Display -->
+            <section class="central-display">
+                <div class="display-frame">
+                    <div class="display-content">
+                        <h2>Welcome, Sir</h2>
+                        <p id="greeting-text">Ready to assist</p>
+                        <div class="wave-animation">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Command Grid -->
+            <section class="command-grid">
+                <div class="command-card" data-command="1">
+                    <div class="card-icon">⚡</div>
+                    <h3>System Status</h3>
+                    <p>Monitor core systems</p>
+                    <div class="card-glow"></div>
+                </div>
+
+                <div class="command-card" data-command="2">
+                    <div class="card-icon">🔍</div>
+                    <h3>Scan Network</h3>
+                    <p>Analyze connected devices</p>
+                    <div class="card-glow"></div>
+                </div>
+
+                <div class="command-card" data-command="3">
+                    <div class="card-icon">🎯</div>
+                    <h3>Target Systems</h3>
+                    <p>Lock onto objectives</p>
+                    <div class="card-glow"></div>
+                </div>
+
+                <div class="command-card" data-command="4">
+                    <div class="card-icon">🛡️</div>
+                    <h3>Defense Shield</h3>
+                    <p>Activate protection</p>
+                    <div class="card-glow"></div>
+                </div>
+
+                <div class="command-card" data-command="5">
+                    <div class="card-icon">📊</div>
+                    <h3>Analytics</h3>
+                    <p>View detailed reports</p>
+                    <div class="card-glow"></div>
+                </div>
+
+                <div class="command-card" data-command="6">
+                    <div class="card-icon">⚙️</div>
+                    <h3>Settings</h3>
+                    <p>Configure systems</p>
+                    <div class="card-glow"></div>
+                </div>
+            </section>
+
+            <!-- Holographic Grid Background -->
+            <div class="holographic-grid"></div>
+        </main>
+
+        <!-- Footer Status -->
+        <footer class="footer">
+            <div class="footer-item">
+                <span class="label">CPU</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 75%"></div>
+                </div>
+            </div>
+            <div class="footer-item">
+                <span class="label">MEMORY</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 62%"></div>
+                </div>
+            </div>
+            <div class="footer-item">
+                <span class="label">NETWORK</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 88%"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
